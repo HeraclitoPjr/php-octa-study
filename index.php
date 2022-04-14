@@ -17,22 +17,22 @@
 <php
 /*  $_GET
 
-/*$name = $_GET['nome'] ?? 'não informado';
+$name = $_GET['nome'] ?? 'não informado';
 $sobrenome = $_GET ['sobrenome'] ?? 'não informado';
 
 echo $nome . "br />";
-echo $sobrenome . "br />";*/
+echo $sobrenome . "br />";
 
 
 
 
-/*$objeto = new \stdClass();
+$objeto = new \stdClass();
 $objeto->nome = 'Junior';
 $objeto->sobrenome = 'Pantoja';
 
- var_dump($objeto);*/
+ ___var_dump($objeto);
 
-/* $frutas = array('maça', 'banana');
+$frutas = array('maça', 'banana');
 
 $idiomas = ['português', 'inglês'];
 
