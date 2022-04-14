@@ -1,4 +1,30 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <from action="servidor.php" method="POST">
+        <input type="text" name="nome"= placeholder="Informe o seu nome...">
+        <button type="submit">Enviar</button>
+    </from>
+</body>
+</html>
+
+<php
+/*  $_GET
+
+/*$name = $_GET['nome'] ?? 'não informado';
+$sobrenome = $_GET ['sobrenome'] ?? 'não informado';
+
+echo $nome . "br />";
+echo $sobrenome . "br />";*/
+
+
+
 
 /*$objeto = new \stdClass();
 $objeto->nome = 'Junior';
@@ -149,6 +175,9 @@ switch($corFavorita) {
     default;
         echo "O usuário não selecionou nenhuma cor";
 }*/
+
+
+
 // Função date();
 
 // d = dia
@@ -174,7 +203,7 @@ echo "Data e Hora Completa: " . date("d/m/y h:i:s");*/
 // Função strtolower = "caixa-baixa"
 // Operador . = i++
 
-echo "funções php" . " <br />"; //
+
 
 /*$nome = '<br>NOME:<br/> Junior Pantoja';
 echo $nome;*/
@@ -183,10 +212,13 @@ echo $nome;*/
 //echo strtolower($nome);
 //echo trim($nome);
 
+//echo "funções php" . " <br />"; //
 // ARRAY PRODUTOS 
-$hamburguer = ("carne, pao, tomate");
+/*$hamburguer = ("carne, pao, tomate");
 $pizzas = ("mussarela, calabreza, frango");
 
 echo $hamburguer ."<br />";
-echo $pizzas ."<br />";
+echo $pizzas ."<br />";*/
+
+
 
