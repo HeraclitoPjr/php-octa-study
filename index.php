@@ -1,36 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-</head>
-<body>
-    <from action="servidor.php" method="POST">
-        <input type="text" name="nome"= placeholder="Informe o seu nome...">
-        <button type="submit">Enviar</button>
-    </from>
-</body>
-</html>
 
-<php
-/*  $_GET
+<?php
 
-$name = $_GET['nome'] ?? 'não informado';
-$sobrenome = $_GET ['sobrenome'] ?? 'não informado';
+// SESSION
 
-echo $nome . "br />";
-echo $sobrenome . "br />";
+$_SESSION['cor_favorita'] = 'azul';
+echo 'cor favorita setada!';
 
-
-
-
-$objeto = new \stdClass();
+/* $objeto = new \stdClass();
 $objeto->nome = 'Junior';
 $objeto->sobrenome = 'Pantoja';
 
- ___var_dump($objeto);
+var_dump($objeto);
 
 $frutas = array('maça', 'banana');
 
